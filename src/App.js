@@ -1,7 +1,12 @@
 import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
 
 function App() {
+  const [contador, setContador] = useState(0);
+  setTimeout(() => {
+    setContador(contador+1);
+  }, 1000);
   return (
     <div className="App">
       <header className="App-header">
@@ -9,7 +14,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
           <p>
-          Este va a ser el sitio web de Minor Vargas!
+          Este va a ser el sitio web de Minor Vargas! {contador}
           </p>
         </p>
         <a
