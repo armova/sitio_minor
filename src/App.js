@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   const [contador, setContador] = useState(0);
   setTimeout(() => {
-    setContador(contador+1);
+    setContador(contador+4);
   }, 1000);
   return (
     <div className="App">
@@ -14,7 +14,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
           <p>
-          Este va a ser el sitio web de Minor Vargas! {contador}
+            Este va a ser el sitio web de Minor Vargas Selles!
+          </p>
+          <p>
+            mi contador javascript {contador}
           </p>
         </p>
         <a
