@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import { useState } from 'react';
 import './App.css';
+import ContadorIncremental from './contadorIncremental';
 
 function App() {
   const [contador, setContador] = useState(0);
@@ -11,15 +12,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <div>
           Edit <code>src/App.js</code> and save to reload.
           <p>
             Este va a ser el sitio web de Minor Vargas Selles!
           </p>
-          <p>
-            mi contador javascript {contador}
-          </p>
-        </p>
+          <ContadorIncremental incremento={10}>
+          </ContadorIncremental>
+        </div>
         <a
           className="App-link"
           href="https://reactjs.org"
