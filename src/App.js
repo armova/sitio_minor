@@ -17,7 +17,9 @@ function App() {
           <p>
             Este va a ser el sitio web de Minor Vargas Selles!
           </p>
-          <ContadorIncremental incremento={10}>
+          <ContadorIncremental incremento={10} valorInicial={99} velocidad={3000}>
+          </ContadorIncremental>
+          <ContadorIncremental incremento={-145} valorInicial={20} velocidad={500}>
           </ContadorIncremental>
         </div>
         <a

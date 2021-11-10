@@ -1,14 +1,18 @@
 import { useState } from 'react';
 
-function ContadorIncremental({ incremento }) {
-    const [contador, setContador] = useState(10);
+function ContadorIncremental({ incremento, valorInicial, velocidad }) {
+    const [contador, setContador] = useState(valorInicial);
     setTimeout(() => {
+      console.log("SUMANDO!!!")
       setContador(contador + incremento);
-    }, 1000);
+    }, velocidad);
+    console.log("incremento: ", incremento)
+    console.log("valorInicial: ", valorInicial)
+    console.log("contador: ", contador)
     return (
-        <p>
+        <div>
             mi contador javascript {contador}
-        </p>
+        </div>
     );
 }
 
