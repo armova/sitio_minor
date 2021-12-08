@@ -3,15 +3,18 @@
 }
 
 .App-logo {
-  height: 50vmin;
+  height: 250px;
   pointer-events: none;
 }
 
 .Imagenes-perfil {
   display: inline;
+  margin: 20px 0;
 }
+
 .Foto-perfil {
   display: inline;
+  border-radius: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
