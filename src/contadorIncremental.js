@@ -11,7 +11,7 @@ function ContadorIncremental({ incremento, valorInicial, velocidad }) {
     console.log("contador: ", contador)
     return (
         <div>
-            mi contador javascript {contador}
+            Segundos en el sitio {contador}
         </div>
     );
 }
