@@ -4,6 +4,8 @@ import { useState } from 'react';
 import './App.css';
 import ContadorIncremental from './ContadorIncremental';
 import Tecnologias from './Tecnologias';
+import Conocimientos from './Conocimientos';
+import Contacto from './Contacto';
 
 function App() {
   const [contador, setContador] = useState(0);
@@ -23,6 +25,8 @@ function App() {
         </div>
     </header>
     <Tecnologias />
+    <Conocimientos />
+    <Contacto />
     </div>
   );
 }

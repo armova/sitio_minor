@@ -36,8 +36,14 @@
   color: white;
 }
 
+.Contenedor {
+  border-bottom-style: inset;
+  border-bottom-width: 2px;
+}
+
 .Seccion {
-  margin-top: 50px;
+  margin-top: 25px;
+  color: #74c8fc;
 }
 
 .ContenedorSeccion {
@@ -53,6 +59,23 @@
 }
 .App-link {
   color: #61dafb;
+}
+
+ul {
+  padding: 0;
+  color: #7b7a7e;
+}
+
+h3 {
+  color: #536f6f;
+}
+
+h4 {
+  display: inline;
+}
+
+#datosContacto {
+  display: block;
 }
 
 @keyframes App-logo-spin {

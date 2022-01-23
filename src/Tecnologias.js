@@ -1,15 +1,15 @@
 function Tecnologias() {
   return (
-  <>
+  <div className="Contenedor">
     <h1 className ="Seccion">
-      Tecnologías que estudiamos
+      Tecnologías web
     </h1>
     <div className="ContenedorSeccion">
     <div className="SeccionIzquierda">
       <h3>
         Lenguajes
       </h3>
-      <ul>javascrip</ul>
+      <ul>Javascrip</ul>
       <ul>HTML</ul>
       <ul>CSS</ul>
     </div>
@@ -22,7 +22,7 @@ function Tecnologias() {
     <ul>Node</ul>
     </div>
     </div>
-  </>
+  </div>
   )
 }
 
