@@ -10,7 +10,7 @@ function ContadorIncremental({ incremento, valorInicial, velocidad }) {
     console.log("valorInicial: ", valorInicial)
     console.log("contador: ", contador)
     return (
-        <div>
+        <div id="Contador">
             Segundos en el sitio {contador}
         </div>
     );
