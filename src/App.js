@@ -1,4 +1,4 @@
-import logo from './assets/logo.svg';
+ import logo from './assets/logo.svg';
 import mainor from './assets/mainor.jpg';
 import { useState } from 'react';
 import './App.css';
