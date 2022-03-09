@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sitio_minor/static/css/main.b340ae36.chunk.css",
+    "main.js": "/sitio_minor/static/js/main.569316b6.chunk.js",
+    "main.js.map": "/sitio_minor/static/js/main.569316b6.chunk.js.map",
+    "runtime-main.js": "/sitio_minor/static/js/runtime-main.e58a3ab7.js",
+    "runtime-main.js.map": "/sitio_minor/static/js/runtime-main.e58a3ab7.js.map",
+    "static/js/2.012c6de2.chunk.js": "/sitio_minor/static/js/2.012c6de2.chunk.js",
+    "static/js/2.012c6de2.chunk.js.map": "/sitio_minor/static/js/2.012c6de2.chunk.js.map",
+    "static/js/3.245788e8.chunk.js": "/sitio_minor/static/js/3.245788e8.chunk.js",
+    "static/js/3.245788e8.chunk.js.map": "/sitio_minor/static/js/3.245788e8.chunk.js.map",
+    "index.html": "/sitio_minor/index.html",
+    "static/css/main.b340ae36.chunk.css.map": "/sitio_minor/static/css/main.b340ae36.chunk.css.map",
+    "static/js/2.012c6de2.chunk.js.LICENSE.txt": "/sitio_minor/static/js/2.012c6de2.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/sitio_minor/static/media/logo.6ce24c58.svg",
+    "static/media/mainor.c7f8dc5d.jpg": "/sitio_minor/static/media/mainor.c7f8dc5d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e58a3ab7.js",
+    "static/js/2.012c6de2.chunk.js",
+    "static/css/main.b340ae36.chunk.css",
+    "static/js/main.569316b6.chunk.js"
+  ]
+}
